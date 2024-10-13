@@ -1,0 +1,248 @@
+[
+    {
+        "type": "Game",
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "price": 59.99,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "release_date": "2017/03/03"
+    },
+    {
+        "type": "Game",
+        "name": "Chrono Trigger",
+        "price": 14.99,
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Square",
+        "publisher": "Square Enix",
+        "release_date": "1995/03/11"
+    },
+    {
+        "type": "Game",
+        "name": "Final Fantasy VII",
+        "price": 15.99,
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Square Enix",
+        "publisher": "Square Enix",
+        "release_date": "1997/01/31"
+    },
+    {
+        "type": "Game",
+        "name": "Nier: Automata",
+        "price": 39.99,
+        "genre": [
+            "Action",
+            "RPG"
+        ],
+        "developer": "PlatinumGames",
+        "publisher": "Square Enix",
+        "release_date": "2017/02/23"
+    },
+    {
+        "type": "Game",
+        "name": "Journey",
+        "price": 14.99,
+        "genre": [
+            "Adventure"
+        ],
+        "developer": "Thatgamecompany",
+        "publisher": "Sony Computer Entertainment",
+        "release_date": "2012/03/13"
+    },
+    {
+        "type": "Game",
+        "name": "The Witcher 3: Wild Hunt",
+        "price": 49.99,
+        "genre": [
+            "RPG",
+            "Adventure"
+        ],
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "release_date": "2015/05/19"
+    },
+    {
+        "type": "Game",
+        "name": "Undertale",
+        "price": 9.99,
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Toby Fox",
+        "publisher": "Toby Fox",
+        "release_date": "2015/09/15"
+    },
+    {
+        "type": "Game",
+        "name": "Persona 5",
+        "price": 59.99,
+        "genre": [
+            "RPG"
+        ],
+        "developer": "Atlus",
+        "publisher": "Atlus",
+        "release_date": "2016/09/15"
+    },
+    {
+        "type": "Game",
+        "name": "Hollow Knight",
+        "price": 14.99,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "developer": "Team Cherry",
+        "publisher": "Team Cherry",
+        "release_date": "2017/02/24"
+    },
+    {
+        "type": "Game",
+        "name": "Metal Gear Solid 2: Sons of Liberty",
+        "price": 19.99,
+        "genre": [
+            "Action",
+            "Stealth"
+        ],
+        "developer": "Konami",
+        "publisher": "Konami",
+        "release_date": "2001/11/13"
+    },
+    {
+        "type": "Game",
+        "name": "Shadow of the Colossus",
+        "price": 39.99,
+        "genre": [
+            "Adventure",
+            "Action"
+        ],
+        "developer": "Team Ico",
+        "publisher": "Sony Computer Entertainment",
+        "release_date": "2005/10/18"
+    },
+    {
+        "type": "Game",
+        "name": "Okami",
+        "price": 19.99,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "developer": "Clover Studio",
+        "publisher": "Capcom",
+        "release_date": "2006/04/20"
+    },
+    {
+        "type": "Game",
+        "name": "Celeste",
+        "price": 19.99,
+        "genre": [
+            "Platformer"
+        ],
+        "developer": "Maddy Makes Games",
+        "publisher": "Maddy Makes Games",
+        "release_date": "2018/01/25"
+    },
+    {
+        "type": "Game",
+        "name": "Dark Souls III",
+        "price": 59.99,
+        "genre": [
+            "RPG",
+            "Action"
+        ],
+        "developer": "FromSoftware",
+        "publisher": "Bandai Namco Entertainment",
+        "release_date": "2016/03/24"
+    },
+    {
+        "type": "Game",
+        "name": "Red Dead Redemption 2",
+        "price": 59.99,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "developer": "Rockstar Games",
+        "publisher": "Rockstar Games",
+        "release_date": "2018/10/26"
+    },
+    {
+        "type": "Game",
+        "name": "Ori and the Blind Forest",
+        "price": 19.99,
+        "genre": [
+            "Platformer",
+            "Adventure"
+        ],
+        "developer": "Moon Studios",
+        "publisher": "Microsoft Studios",
+        "release_date": "2015/03/11"
+    },
+    {
+        "type": "Game",
+        "name": "Bastion",
+        "price": 14.99,
+        "genre": [
+            "Action",
+            "RPG"
+        ],
+        "developer": "Supergiant Games",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "release_date": "2011/07/20"
+    },
+    {
+        "type": "Game",
+        "name": "Bloodborne",
+        "price": 59.99,
+        "genre": [
+            "Action",
+            "RPG"
+        ],
+        "developer": "FromSoftware",
+        "publisher": "Sony Computer Entertainment",
+        "release_date": "2015/03/24"
+    },
+    {
+        "type": "Game",
+        "name": "Hyper Light Drifter",
+        "price": 19.99,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "developer": "Heart Machine",
+        "publisher": "Heart Machine",
+        "release_date": "2016/03/31"
+    },
+    {
+        "type": "Game",
+        "name": "Hades",
+        "price": 24.99,
+        "genre": [
+            "Rogue-like",
+            "Action"
+        ],
+        "developer": "Supergiant Games",
+        "publisher": "Supergiant Games",
+        "release_date": "2020/09/17"
+    },
+    {
+        "type": "Game",
+        "name": "The Talos Principle",
+        "price": 39.99,
+        "genre": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "developer": "Croteam",
+        "publisher": "Devolver Digital",
+        "release_date": "2014/12/11"
+    }
+]

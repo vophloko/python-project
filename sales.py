@@ -1,5 +1,6 @@
 from datetime import datetime
 from utilities import print_header, print_subheader
+import matplotlib.pyplot as plt
 
 
 class SalesHistoryTracker:
@@ -8,7 +9,7 @@ class SalesHistoryTracker:
 
     def track_sale(self, product, price):
         if not product:
-            return
+            raise ValueError("No product specified")
         self._sales_history.append(
             {
                 "product": product,
@@ -17,7 +18,7 @@ class SalesHistoryTracker:
             }
         )
 
-    def track_sales_history(self):
+    def print_track_sales_history(self):
         print_header("Sales History")
         for record in self._sales_history:
             print(
@@ -67,11 +68,22 @@ class SalesManager:
 
         self.sales_history_tracker.track_sale(product, price)
 
-    def track_sales_history(self):
-        self.sales_history_tracker.track_sales_history()
+    def print_track_sales_history(self):
+        self.sales_history_tracker.print_track_sales_history()
 
     def list_discounted_products(self):
         self.discount_manager.list_discounted_products()
+
+    def summarize_sales_as_graph(self):
+        product_name, _, earned = zip(*self._generate_sales_summary())
+        plt.bar(product_name, earned, label="Revenue")
+        plt.title("Sales Summary")
+        plt.xlabel("Product")
+        plt.ylabel("Revenue")
+        plt.xticks(rotation=90)
+        plt.tight_layout()
+        plt.legend()
+        plt.show()
 
     def summarize_sales(self):
         print_header("Sales Summary")

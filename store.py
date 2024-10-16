@@ -86,18 +86,21 @@ class StoreManager:
     def get_products(self):
         return self._products
 
-    def list_products(self, filter_func=None, sort_key=None):
+    def list_products(
+        self, filter_func=None, sort_key=None, reverse=False, verbose=True
+    ):
         products = list(self._products.values())
 
         if filter_func:
             products = list(filter(filter_func, products))
 
         if sort_key:
-            products.sort(key=sort_key)
+            products.sort(key=sort_key, reverse=reverse)
 
         if not products:
             raise ValueError("No products found")
 
-        print_header("Registered Products")
-        for product in products:
-            print(product)
+        if verbose:
+            print_header("Registered Products")
+            for product in products:
+                print(product)

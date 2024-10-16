@@ -10,7 +10,7 @@
 * ✓ DONE - dekoratory
 
 
-This project is a simple Game Store application developed in Python 3.12, designed to demonstrate core programming skills and fulfill the requirements of a university course. Only standard libraries are used.
+This project is a simple Game Store application developed in Python 3.12, designed to demonstrate core programming skills and fulfill the requirements of a university course. This project uses matplotlib, so please refer to installation guide.
 
 ### Project Structure
 The application consists of the following core components:
@@ -25,6 +25,11 @@ The application consists of the following core components:
   ```sh
   python --version
   ```
+- Run the following command to install depenencies:
+  ```sh
+  pip install -r requirements.txt
+  ```
+- Make sure that tkinter is installed on your system
 
 ### Usage
 To start the application, simply run the following command from the project directory:

@@ -9,10 +9,10 @@
 * ✓ DONE - generatory
 * ✓ DONE - dekoratory
 
-
 This project is a simple Game Store application developed in Python 3.12, designed to demonstrate core programming skills and fulfill the requirements of a university course. This project uses matplotlib, so please refer to installation guide.
 
-### Project Structure
+## Project Structure
+
 The application consists of the following core components:
 
 * **`products.py`** - Defines the `Game` model.
@@ -20,19 +20,26 @@ The application consists of the following core components:
 * **`sales.py`** - Implements the `SalesManager` class, which handles sales transactions, tracks sales data, and displays the summary of purchases.
 * **`main.py`** - Serves as the main entry point for the application.
 
-### Prerequisites
-- Python 3.12 is required to run this application. You can check your current Python version by running:
+## Prerequisites
+
+* Python 3.12 is required to run this application. You can check your current Python version by running:
+
   ```sh
   python --version
   ```
-- Run the following command to install depenencies:
+
+* Run the following command to install depenencies:
+
   ```sh
   pip install -r requirements.txt
   ```
-- Make sure that tkinter is installed on your system
 
-### Usage
+* Make sure that tkinter is installed on your system
+
+## Usage
+
 To start the application, simply run the following command from the project directory:
+
 ```sh
 python ./main.py
 ```
